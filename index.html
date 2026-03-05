@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bastion</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Bastion</h1>
+<p class="tagline">
+Analyze GitHub repositories and generate verifiable developer skill credentials on Base.
+</p>
+
+<input type="text" id="repo" placeholder="Paste GitHub Repo URL">
+
+<button onclick="analyzeRepo()">Analyze Project</button>
+
+<div id="result" class="result-box">
+
+<h3>Repository Analysis</h3>
+
+<p>Code Quality: <span id="codeQuality"></span></p>
+<p>Architecture: <span id="architecture"></span></p>
+<p>Documentation: <span id="documentation"></span></p>
+
+<h2>Skill Score: <span id="score"></span></h2>
+
+</div>
+<h2 id="result"></h2>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+<button id="verifyBtn" style="display:none;" onclick="verify()">Verify on Base</button>
+</html>
