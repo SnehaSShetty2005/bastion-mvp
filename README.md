@@ -21,5 +21,5 @@ JavaScript
 Base (planned)
 
 ## Founder
-Sneha Shetty# bastion-mvp
+Sneha S Shetty# bastion-mvp
 AI-powered trustless skill verification platform built on Base.
