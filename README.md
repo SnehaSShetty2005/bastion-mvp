@@ -1,6 +1,6 @@
-# Bastion
+# SkillChain
 
-Bastion is an AI-powered developer skill verification platform that analyzes GitHub repositories and generates a Skill Score.
+SkillChain is an AI-powered developer skill verification platform that analyzes GitHub repositories and generates a Skill Score.
 
 The goal is to create verifiable onchain developer credentials using Base.
 
@@ -12,7 +12,7 @@ The goal is to create verifiable onchain developer credentials using Base.
 - Documentation scoring
 
 ## Future Vision
-Bastion will store verified developer credentials on Base blockchain so recruiters can trust skills without relying on resumes.
+SkillChain will store verified developer credentials on Base blockchain so recruiters can trust skills without relying on resumes.
 
 ## Built With
 HTML
@@ -21,5 +21,5 @@ JavaScript
 Base (planned)
 
 ## Founder
-Sneha S Shetty# bastion-mvp
+Sneha S Shetty# SkillChain-mvp
 AI-powered trustless skill verification platform built on Base.
